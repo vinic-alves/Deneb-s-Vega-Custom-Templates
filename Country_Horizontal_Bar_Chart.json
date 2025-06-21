@@ -1,0 +1,285 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "usermeta": {
+    "information": {
+      "uuid": "8c26ba89-430d-430b-a858-c584858282aa",
+      "generated": "2025-06-21T19:27:39.476Z",
+      "previewImageBase64PNG": "data:image/png;base64,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",
+      "name": "Country Horizontal Bar Chart",
+      "description": "This is a horizontal bar chart by country. You can change the image links and data values to get better results with your own dataset.",
+      "author": "Vinicius Q. Alves"
+    },
+    "deneb": {
+      "build": "1.7.2.20240904#411f9c6",
+      "metaVersion": 1,
+      "provider": "vega",
+      "providerVersion": "5.30.0"
+    },
+    "interactivity": {
+      "tooltip": true,
+      "contextMenu": true,
+      "selection": true,
+      "selectionMode": "simple",
+      "highlight": true,
+      "dataPointLimit": 50
+    },
+    "config": "{\n  \"autosize\": {\n    \"contains\": \"padding\",\n    \"type\": \"fit\"\n  }\n}",
+    "dataset": [
+      {
+        "key": "__0__",
+        "name": "Country Column",
+        "description": "",
+        "kind": "column",
+        "type": "text"
+      },
+      {
+        "key": "__1__",
+        "name": "Agregation Value ",
+        "description": "",
+        "kind": "measure",
+        "type": "numeric"
+      }
+    ]
+  },
+  "autosize": {
+    "type": "fit",
+    "contains": "padding"
+  },
+  "padding": {
+    "right": 12
+  },
+  "data": [
+    {
+      "name": "dataset"
+    }
+  ],
+  "scales": [
+    // yscale
+    {
+      "name": "yscale",
+      "type": "band",
+      "domain": {
+        "data": "dataset",
+        "field": "__0__",
+        "sort": {
+          "field": "__1__",
+          "op": "sum",
+          "order": "descending"
+        }
+      },
+      "range": "height",
+      "padding": 0.1,
+      "round": true
+    },
+    {
+      "name": "xscale",
+      "domain": {
+        "data": "dataset",
+        "field": "__1__"
+      },
+      "nice": true,
+      "range": "width"
+    }
+  ],
+  // Signals are the variables , each of them are images links on github
+  "signals": [
+    {
+      "name": "Mexico",
+      "value": "https://raw.githubusercontent.com/vinic-alves/public_images_repo/main/Mexico.png"
+    },
+    {
+      "name": "Canada",
+      "value": "https://raw.githubusercontent.com/vinic-alves/public_images_repo/main/Canada.png"
+    },
+    {
+      "name": "USA",
+      "value": "https://raw.githubusercontent.com/vinic-alves/public_images_repo/main/USA.png"
+    },
+    {
+      "name": "Germany",
+      "value": "https://raw.githubusercontent.com/vinic-alves/public_images_repo/main/Germany.png"
+    },
+    {
+      "name": "France",
+      "value": "https://raw.githubusercontent.com/vinic-alves/public_images_repo/main/france.png"
+    }
+  ],
+  "axes": [
+    {
+      "scale": "xscale",
+      "orient": "bottom",
+      "title": null,
+      "labels": false,
+      "ticks": false
+    },
+    {
+      "orient": "left",
+      "scale": "yscale",
+      "title": null,
+      "labels": false,
+      "ticks": false,
+      "domain": false
+    }
+  ],
+  "marks": [
+    {
+      "type": "rect",
+      "from": {
+        "data": "dataset"
+      },
+      "encode": {
+        "enter": {
+          "tooltip": {
+            "signal": "{'Country': datum['__0__'], 'Soma de Units Sold': datum['__1__']}"
+          },
+          "fill": {
+            "value": "#84cdcf"
+          },
+          "x": {
+            "scale": "xscale",
+            "field": "__1__"
+          },
+          "x2": {
+            "scale": "xscale",
+            "value": 0
+          },
+          "y": {
+            "scale": "yscale",
+            "field": "__0__"
+          },
+          "height": {
+            "scale": "yscale",
+            "band": 1
+          },
+          "opacity": {
+            "value": 0.3
+          },
+          "cornerRadius": {
+            "value": 12
+          }
+        }
+      }
+    },
+    {
+      "type": "image",
+      "from": {
+        "data": "dataset"
+      },
+      "encode": {
+        "enter": {
+          "x": {
+            "value": -10
+          }, // posição fixa a esquerda
+          "y": {
+            "scale": "yscale",
+            "field": "__0__",
+            "band": 0.5
+          },
+          "width": {
+            "value": 45
+          },
+          "height": {
+            "value": 45
+          },
+          "align": {
+            "value": "right"
+          },
+          "baseline": {
+            "value": "middle"
+          },
+          "tooltip": {
+            "signal": "{'País': datum['__0__']}"
+          },
+          "cursor": {
+            "value": "pointer"
+          },
+          "url": {
+            "signal": "datum['__0__'] == 'Mexico' ? Mexico : datum['__0__'] == 'France' ? France : datum['__0__'] == 'Germany' ? Germany : datum['__0__'] == 'Canada' ? Canada : datum['__0__'] == 'United States of America' ? USA : ''"
+          }
+        }
+      }
+    },
+    {
+      "type": "rect",
+      "from": {
+        "data": "dataset"
+      },
+      "encode": {
+        "enter": {
+          "tooltip": {
+            "signal": "{'Country': datum['__0__'], 'Soma de Units Sold': datum['__1__']}"
+          },
+          "fill": {
+            "value": "#427e80" // laranja queimado
+          },
+          "x": {
+            "scale": "xscale",
+            "field": "__1____highlight"
+          },
+          "x2": {
+            "scale": "xscale",
+            "value": 0
+          },
+          "y": {
+            "scale": "yscale",
+            "field": "__0__"
+          },
+          "height": {
+            "scale": "yscale",
+            "band": 1
+          },
+          "opacity": [
+            {
+              "test": "datum.__selected__ == 'off'",
+              "value": 0
+            }
+          ],
+          "cornerRadius": {
+            "value": 12
+          }
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": {
+        "data": "dataset"
+      },
+      "encode": {
+        "enter": {
+          "x": {
+            "scale": "xscale",
+            "field": "__1__",
+            "offset": 5
+          },
+          "y": {
+            "scale": "yscale",
+            "field": "__0__",
+            "band": 0.5
+          },
+          "text": {
+            "field": "__1__"
+          },
+          "align": {
+            "value": "left"
+          },
+          "baseline": {
+            "value": "middle"
+          },
+          "fill": {
+            "value": "#000"
+          },
+          "fontSize": {
+            "value": 18
+          },
+          "clip": {
+            "value": true
+          },
+          "ellipsis": {
+            "value": "..."
+          }
+        }
+      }
+    }
+  ]
+}
