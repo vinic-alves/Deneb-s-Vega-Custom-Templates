@@ -169,7 +169,7 @@
         "enter": {
           "x": {
             "value": -10
-          }, // posição fixa a esquerda
+          }, 
           "y": {
             "scale": "yscale",
             "field": "__0__",
@@ -188,7 +188,7 @@
             "value": "middle"
           },
           "tooltip": {
-            "signal": "{'País': datum['__0__']}"
+            "signal": "{'Country': datum['__0__']}"
           },
           "cursor": {
             "value": "pointer"
@@ -210,7 +210,7 @@
             "signal": "{'Country': datum['__0__'], 'Soma de Units Sold': datum['__1__']}"
           },
           "fill": {
-            "value": "#427e80" // laranja queimado
+            "value": "#427e80"
           },
           "x": {
             "scale": "xscale",
